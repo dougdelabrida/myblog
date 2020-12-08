@@ -1,4 +1,4 @@
-baseURL = "https://dougdelabrida.com/"
+baseURL = "https://blog-tawny-kappa.vercel.app/"
 languageCode = "en-us"
 title = "Douglas Delabrida"
 theme = "hugo-theme-codex"
