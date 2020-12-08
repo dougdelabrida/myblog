@@ -1,4 +1,23 @@
-baseURL = "http://example.org/"
+baseURL = "https://dougdelabrida.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "ananke"
+title = "Douglas Delabrida"
+theme = "hugo-theme-codex"
+
+[params]
+  showPageTitleInTOC = true
+  linkedin = "https://twitter.com/dougdelabrida"
+  github = "https://github.com/dougdelabrida"
+  # ...
+
+  iconOrder = ["LinkedIn", "GitHub"]
+
+[[menu.main]]
+    identifier = "about"
+    name = "about"
+    title = "about"
+    url = "/"
+[[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    title = "posts"
+    url = "/posts"
